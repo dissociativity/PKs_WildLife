@@ -2162,7 +2162,6 @@
         "cost_multiplier": 20,
         "conditions": [ "DAY", "SUMMER", "SPRING", "AUTUMN" ]
       },
-      { "monster": "mon_ant_queen_young", "freq": 3, "cost_multiplier": 10, "starts": 75, "conditions": [ "SPRING" ] },
       {
         "monster": "mon_twisted_body",
         "freq": 5,
@@ -2469,7 +2468,6 @@
         "cost_multiplier": 10,
         "conditions": [ "DAY", "SPRING", "SUMMER", "AUTUMN" ]
       },
-      { "monster": "mon_ant_queen_young", "freq": 4, "cost_multiplier": 5, "starts": 75, "conditions": [ "SPRING" ] },
       {
         "monster": "mon_twisted_body",
         "freq": 5,
