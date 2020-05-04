@@ -1,0 +1,121 @@
+[
+  {
+    "type": "effect_type",
+    "id": "spider_web_slow",
+    "name": [ "web spider poison" ],
+    "int_add_val": 1,
+    "max_intensity": 10,
+    "resist_trait": [ "POISRESIST", "EATPOISON" ],
+    "base_mods": { "speed_mod": [ -6, -5 ], "pain_amount": [ 10, 4 ] },
+    "scaling_mods": { "speed_mod": [ -1, -0.5 ], "pain_amount": [ 4, 3 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "spider_web_alpha",
+    "int_add_val": 1,
+    "max_intensity": 5,
+    "resist_trait": [ "POISRESIST", "EATPOISON" ],
+    "base_mods": { "speed_mod": [ -3, -1 ], "dex_mod": [ -1 ] },
+    "scaling_mods": { "speed_mod": [ -3, -1 ], "dex_mod": [ -0.5, -0.25 ], "str_mod": [ -0.75, -0.5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "spider_web_omega",
+    "int_add_val": 1,
+    "max_intensity": 5,
+    "int_decay_step": -1,
+    "int_decay_tick": 200,
+    "resist_trait": [ "POISRESIST", "EATPOISON" ],
+    "base_mods": {
+      "speed_mod": [ -2, 0 ],
+      "dex_mod": [ -1 ],
+      "sleep_chance": [ 100, 150 ],
+      "sleep_min": [ 100, 50 ],
+      "sleep_max": [ 300, 100 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ -2, 0 ],
+      "dex_mod": [ -0.75, -0.5 ],
+      "str_mod": [ -0.25, 0 ],
+      "sleep_chance": [ -15 ],
+      "sleep_min": [ 50, 25 ],
+      "sleep_max": [ 100, 50 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "spider_web_mu",
+    "resist_trait": [ "POISRESIST", "EATPOISON" ],
+    "base_mods": { "speed_mod": [ -10 ], "hurt_min": [ 3, 2 ], "hurt_chance": [ 20, 50 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "skunk_spray",
+    "chance": 95,
+    "name": [ "Overpoweringly Smelly" ],
+    "desc": [ "You can hardly concentrate or breathe because the smell is overpowering." ],
+    "max_intensity": 2,
+    "apply_message": "The monster sprays you in a foul-smelling liquid!",
+    "int_add_val": 1,
+    "int_decay_step": -1,
+    "int_decay_tick": 600,
+    "decay_messages": [ [ "You don't think you smell quite so gross anymore.", "good" ], [ "You grow used to that foul smell.", "good" ] ],
+    "base_mods": { "speed_mod": [ -2 ], "per_mod": [ -1 ], "stamina_min": [ -1 ] },
+    "scaling_mods": { "speed_mod": [ -3 ], "int_mod": [ -1 ], "per_mod": [ -1 ], "stamina_min": [ -1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "scrib",
+    "name": [ "Paralyzed" ],
+    "desc": [ "You are paralyzed!" ],
+    "apply_message": "Your joints lock up!",
+    "decay_messages": [ [ "You can now use Free Action!", "good" ] ],
+    "base_mods": { "speed_mod": [ -100 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "thing_poison",
+    "name": [ "Biotoxin" ],
+    "desc": [ "Your body is both hot and cold, burning with pain and numbed and cold!" ],
+    "int_add_val": 1,
+    "max_intensity": 5,
+    "int_decay_step": -1,
+    "int_decay_tick": 50,
+    "base_mods": {
+      "speed_mod": [ -3 ],
+      "dex_mod": [ -0.5 ],
+      "int_mod": [ -1 ],
+      "fatigue_min": [ 1 ],
+      "fatigue_max": [ 5 ],
+      "fatigue_chance": [ 25 ],
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 3 ],
+      "hurt_chance": [ 50 ],
+      "stamina_min": [ -0.3 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ -2 ],
+      "dex_mod": [ -0.5 ],
+      "int_mod": [ -0.5 ],
+      "str_mod": [ -0.5 ],
+      "fatigue_chance": [ -5 ],
+      "hurt_chance": [ -5 ],
+      "stamina_min": [ -0.3 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "slashed",
+    "int_add_val": 1,
+    "max_intensity": 2,
+    "base_mods": {
+      "pain_min": [ 1 ],
+      "pain_max": [ 3 ],
+      "pain_chance": [ 3 ],
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 2 ],
+      "hurt_chance": [ 10 ]
+    },
+    "scaling_mods": { "pain_chance": [ -2 ], "hurt_chance": [ -8 ] }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "type": "recipe",
+    "result": "megabear_skull_clean",
+    "byproducts": [ [ "fat", 2 ] ],
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "survival",
+    "skills_required": [ [ "fabrication", 1 ] ],
+    "difficulty": 4,
+    "time": "175 m",
+    "autolearn": [ [ "survival", 6 ], [ "fabrication", 3 ], [ "cooking", 3 ] ],
+    "reversible": false,
+    "book_learn": [ [ "survival_book", 5 ], [ "textbook_survival", 6 ], [ "scots_cookbook", 6 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "BUTCHER", "level": 7 },
+      [ { "id": "SAW_M", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+      { "id": "COOK", "level": 3 },
+      { "id": "BOIL", "level": 2 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 60, "LIST" ] ] ],
+    "components": [ [ [ "megabear_skull_unclean", 1 ] ], [ [ "soap", 2 ] ], [ [ "water", 4 ], [ "water_clean", 4 ] ], [ [ "rag", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "megabear_skull_clean",
+    "id_suffix": "picked",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "survival",
+    "skills_required": [ [ "fabrication", 1 ] ],
+    "difficulty": 4,
+    "time": "145 m",
+    "autolearn": [ [ "survival", 2 ], [ "fabrication", 2 ], [ "cooking", 2 ] ],
+    "reversible": false,
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "BUTCHER", "level": 7 },
+      [ { "id": "SAW_M", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+      { "id": "COOK", "level": 3 },
+      { "id": "BOIL", "level": 2 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 35, "LIST" ] ] ],
+    "components": [ [ [ "megabear_skull_picked", 1 ] ], [ [ "soap", 2 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "rag", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "helmet_bone_megabear",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "fabrication", 3 ], [ "survival", 4 ] ],
+    "difficulty": 5,
+    "time": "210 m",
+    "autolearn": [ [ "fabrication", 5 ], [ "survival", 5 ] ],
+    "reversible": false,
+    "book_learn": [ [ "survival_book", 5 ], [ "textbook_survival", 6 ], [ "scots_cookbook", 6 ] ],
+    "qualities": [
+      { "id": "CHEM", "level": 1 },
+      { "id": "BOIL", "level": 1 },
+      { "id": "CONTAIN", "level": 1 },
+      [ { "id": "SAW_M", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+      { "id": "HAMMER_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 30, "LIST" ] ] ],
+    "components": [
+      [ [ "megabear_skull_clean", 1 ] ],
+      [
+        [ "salt", 25 ],
+        [ "salt_water", 3 ],
+        [ "saline", 25 ],
+        [ "chem_hydrogen_peroxide_conc", 1 ],
+        [ "chem_hydrogen_peroxide", 5 ]
+      ],
+      [ [ "salt_water", 1 ], [ "water", 3 ], [ "water_clean", 3 ] ],
+      [ [ "rag", 1 ] ]
+    ]
+  }
+]

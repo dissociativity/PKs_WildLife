@@ -1,0 +1,25 @@
+[
+  {
+    "id": "helmet_bone_megabear",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "megabear skull helmet",
+    "description": "A elegantly shaped elephant bear helmet, taken from a young adult and fashioned into a helmet that covers the eyes and head.  Leaves the mouth free for a filter mask, more ceremonial than practical.",
+    "weight": 1683,
+    "volume": 18,
+    "price": 73000,
+    "to_hit": -2,
+    "bashing": 2,
+    "material": [ "bone" ],
+    "looks_like": "helmet_bone",
+    "symbol": "]",
+    "color": "white",
+    "covers": [ "HEAD", "EYES" ],
+    "coverage": 80,
+    "encumbrance": 22,
+    "warmth": 10,
+    "material_thickness": 5,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "FANCY" ]
+  }
+]

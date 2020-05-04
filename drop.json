@@ -1,0 +1,51 @@
+[
+  {
+	"type": "COMESTIBLE",
+    "id": "megabear_skull_unclean",
+    "name": { "str_sp": "juvenille megabear head" },
+	"weight": 7887,
+	"color": "i_dark_gray",
+    "description": "An uncleaned elephant bear head.  It could be crafted into a snug bone helmet with some skill and patience, and eaten in times of desperation.",
+    "volume": 18,
+    "to_hit": -3,
+    "bashing": 4,
+    "material": [ "flesh", "bone" ],
+    "symbol": "c",
+    "comestible_type": "FOOD",
+    "charges": 1,
+    "quench": 15,
+    "healthy": -1,
+    "fun": -12,
+    "spoils_in": 16,
+    "proportional": { "calories": 0.5, "parasites": 1.5 },
+    "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "megabear_skull_picked",
+	"name": "picked megabear skull",
+    "type": "GENERIC",
+    "description": "The remains of an elephant bear head.  Something was eating at it, but scraps of stubborn sinew do remain.",
+    "weight": 3113,
+    "volume": 16,
+    "to_hit": -1,
+    "bashing": 7,
+    "material": [ "bone", "flesh" ],
+    "symbol": "c",
+    "color": "i_dark_gray",
+    "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "megabear_skull_clean",
+	"name": "juvenille megabear skull",
+    "type": "GENERIC",
+    "description": "The cleaned skull of a juvenille elephant bear.  The perfect size for a helmet, with a little work.",
+    "weight": 2843,
+    "volume": 16,
+    "price": 9500,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "bone" ],
+    "symbol": "c",
+    "color": "white"
+  }
+]

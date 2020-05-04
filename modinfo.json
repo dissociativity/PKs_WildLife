@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "PK_Wildlife",
+    "name": "PK Wildlife Beta 1.0",
+    "authors": [ "dissociativity" ],
+    "description": "adds wildlife spawns and evolutions from PK Rebalancing",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

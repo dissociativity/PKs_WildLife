@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mon_mi_go",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go",
+    "name": "mi-go",
+    "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance.",
+    "upgrades": { "half_life": 1, "into_group": "MI_GO_EVO" }
+  },
+  {
+    "id": "mon_mi_go_terminal",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go",
+    "name": "mi-go",
+    "hp": 200,
+    "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance."
+  },
+  {
+    "id": "mon_mi_go_fly",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go",
+    "name": "flying mi-go",
+    "description": "THEY HAVE WINGS",
+    "hp": 180,
+    "speed": 125,
+    "melee_skill": 8,
+    "dodge": 5
+  }
+]
