@@ -1,0 +1,68 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "Wasp Hive",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "wasp_center_north" } ],
+    "locations": [ "swamp", "forest" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 4, 16 ],
+    "occurrences": [ 0, 3 ],
+    "spawns": { "group": "GROUP_WASP", "population": [ 150, 450 ], "radius": [ 90, 180 ] }
+  },
+  {
+    "type": "overmap_special",
+    "id": "Triffid Grove Swamp",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "triffid_grove_swamp_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "triffid_roots" },
+      { "point": [ 0, 0, -2 ], "overmap": "triffid_roots" },
+      { "point": [ 0, 0, -3 ], "overmap": "triffid_finale" }
+    ],
+    "locations": [ "swamp" ],
+    "city_distance": [ 2, -1 ],
+    "city_sizes": [ 4, 16 ],
+    "occurrences": [ 0, 3 ],
+    "spawns": { "group": "GROUP_TRIFFID_SWAMP", "population": [ 400, 1050 ], "radius": [ 35, 90 ] }
+  },
+  {
+    "type": "overmap_special",
+    "id": "Spider Pit",
+    "copy-from": "Spider Pit",
+    "city_distance": [ 0, -1 ],
+    "occurrences": [ 0, 6 ],
+    "spawns": { "group": "GROUP_SPIDER", "population": [ 20, 60 ], "radius": [ 4, 12 ] }
+  },
+  {
+    "type": "overmap_special",
+    "id": "spider_pit_close",
+    "copy-from": "Spider Pit",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "spider_pit" }, { "point": [ 0, 0, -1 ], "overmap": "spider_pit_under" } ],
+    "locations": [ "forest" ],
+    "city_distance": [ 0, 10 ],
+    "city_sizes": [ 1, 12 ],
+    "occurrences": [ 0, 3 ],
+    "spawns": { "group": "GROUP_SPIDER", "population": [ 18, 54 ], "radius": [ 4, 10 ] }
+  },
+  {
+    "type": "overmap_special",
+    "id": "trapdoor_spider_pit_close",
+    "copy-from": "Spider Pit",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "trapdoor_pit_north" }, { "point": [ 0, 0, -1 ], "overmap": "trapdoor_pit_b1_north" } ],
+    "locations": [ "field" ],
+    "city_distance": [ 0, 8 ],
+    "city_sizes": [ 4, 16 ],
+    "occurrences": [ 0, 3 ],
+    "spawns": { "group": "GROUP_SPIDER_TRAP", "population": [ 15, 40 ], "radius": [ 4, 12 ] }
+  },
+  {
+    "type": "overmap_special",
+    "id": "trapdoor_spider_pit",
+    "copy-from": "Spider Pit",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "trapdoor_pit_north" }, { "point": [ 0, 0, -1 ], "overmap": "trapdoor_pit_b1_north" } ],
+    "locations": [ "field" ],
+    "city_distance": [ 2, -1 ],
+    "city_sizes": [ 4, 16 ],
+    "occurrences": [ 0, 5 ],
+    "spawns": { "group": "GROUP_SPIDER_TRAP", "population": [ 15, 40 ], "radius": [ 4, 10 ] }
+  }
+]

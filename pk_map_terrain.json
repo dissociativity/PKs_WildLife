@@ -1,0 +1,84 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_improvised_fence",
+    "name": "makeshift fence",
+    "description": "Makeshift post-fence",
+    "symbol": "_",
+    "color": "brown",
+    "move_cost": 0,
+    "flags": [ "NOITEM", "PERMEABLE", "EASY_DECONSTRUCT", "CONNECT_TO_WALL", "FLAMMABLE", "AUTO_WALL_SYMBOL" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 16,
+      "sound": "crack!",
+      "sound_fail": "crunch.",
+      "ter_set": "t_pit_shallow",
+      "items": [ { "item": "stick", "count": [ 2, 5 ] }, { "item": "splinter", "count": [ 4, 8 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_pit_foxhole",
+    "name": "foxhole",
+    "description": "An improvised shelter made by digging a pit one can shelter in and covering the top",
+    "symbol": "Q",
+    "color": "brown",
+    "move_cost": 10,
+    "flags": [ "TRANSPARENT", "INDOORS", "REDUCE_SCENT", "CONTAINER", "FLAMMABLE_ASH", "TINY", "MOUNTABLE", "DIGGABLE" ],
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
+    "id": "t_sewage",
+    "name": "sewage",
+    "description": "Smells awful, you could swim through it.",
+    "symbol": "~",
+    "color": "light_green",
+    "move_cost": 6,
+    "flags": [ "TRANSPARENT", "SWIMMABLE", "LIQUID", "FISHABLE", "REDUCE_SCENT" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_paper",
+    "copy-from": "t_paper",
+    "name": "paper wall",
+    "description": " ",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "flags": [ "FLAMMABLE_ASH", "WALL" ],
+    "bash": {
+      "str_min": 3,
+      "str_max": 10,
+      "sound": "rrrrip!",
+      "sound_fail": "slap!",
+      "sound_vol": 8,
+      "sound_fail_vol": 12,
+      "ter_set": "t_null",
+      "items": [ { "item": "wasp_glue", "prob": 20 }, { "item": "wasp_glue", "prob": 20 }, { "item": "wasp_glue", "prob": 20 } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_paper_floor",
+    "name": "paper floor",
+    "description": " ",
+    "symbol": ".",
+    "color": "white",
+    "move_cost": 0,
+    "roof": "t_paper_floor",
+    "flags": [ "TRANSPARENT", "PERMEABLE", "FLAMMABLE_ASH" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "rrrrip!",
+      "sound_fail": "slap!",
+      "sound_vol": 6,
+      "sound_fail_vol": 4,
+      "ter_set": "t_null",
+      "items": [ { "item": "wasp_glue", "prob": 15 }, { "item": "wasp_glue", "prob": 15 }, { "item": "wasp_glue", "prob": 15 } ]
+    }
+  }
+]
