@@ -4,7 +4,6 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_dog",
     "burn_into": "mon_zanimal_scorched",
-    "upgrades": { "half_life": 11, "into": "mon_zombie_dog_pk" }
   },
   {
     "id": "mon_dog_zombie_cop",
