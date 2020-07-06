@@ -3,7 +3,7 @@
     "id": "mon_zombie_dog",
     "type": "MONSTER",
     "copy-from": "mon_zombie_dog",
-    "burn_into": "mon_zanimal_scorched",
+    "burn_into": "mon_zanimal_scorched"
   },
   {
     "id": "mon_dog_zombie_cop",
