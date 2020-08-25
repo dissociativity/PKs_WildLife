@@ -4,6 +4,7 @@
     "id": "egg_wasp",
     "name": { "str_sp": "wasp egg" },
 	"weight": 60,
+    "volume": 1,
     "color": "white",
     "sub": "egg_reptile",
     "spoils_in": 672,

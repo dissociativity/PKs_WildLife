@@ -45,7 +45,6 @@
       "WARM",
       "HIT_AND_RUN",
       "KEENNOSE",
-      "BLEED",
       "ATTACKMON"
     ]
   },
@@ -78,7 +77,7 @@
     "fear_triggers": [ "FIRE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_function": [ "FUNGUS", "FUNGUS", "FUNGUS", "FUNGUS", "FUNGUS", "DISINTEGRATE", "SMOKEBURST" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "POISON", "BASHES", "WARM", "BLEED" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "POISON", "BASHES", "WARM" ],
     "//": "This deer is a great concept, but admittedly gamey.  Perhaps it'd be better to change its color to light_gray or to remove the suicide attack?"
   },
   {
@@ -112,7 +111,7 @@
     "anger_triggers": [ "FIRE", "HURT", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "placate_triggers": [ "PLAYER_WEAK", "SOUND" ],
     "death_function": [ "NORMAL", "FUNGUS" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "POISON", "BASHES", "WARM", "BLEED", "ATTACKMON" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "POISON", "BASHES", "WARM", "ATTACKMON" ],
     "//": "The mighty foose.  Not mighty enough.  Ever."
   },
   {
@@ -153,7 +152,7 @@
     "fear_triggers": [ "FIRE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_fant",
@@ -464,6 +463,6 @@
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
 	"regenerates": 1,
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BLEED", "BASHES", "POISON", "PLASTIC" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BASHES", "POISON", "PLASTIC" ]
   }
 ]
